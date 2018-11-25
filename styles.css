@@ -94,12 +94,15 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #03a061;
 }
 
 ul.skills {
@@ -120,10 +123,19 @@ ul.skills {
   background: #0399ff;
 }
 
+.skills .sub-skill {
+  padding: 0;
+  font-size: 12px;
+}
+.skills .sub-skill li {
+  color: #ff9904;
+  background: #fff;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 20px 0 0 20px;
 }
 
 footer .copyright {
@@ -151,11 +163,8 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
+a.instagram {
+  background-image: url(images/instagram.svg);
 }
 a.github {
   background-image: url(images/github.svg);
@@ -180,7 +189,7 @@ a.social:hover {
   }
 
   header {
-    min-height: 470px;
+    min-height: 500px;
   }
 
   .nav {
